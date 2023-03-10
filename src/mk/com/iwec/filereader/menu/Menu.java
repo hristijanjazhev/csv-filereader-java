@@ -4,8 +4,8 @@ import mk.com.iwec.filereader.MainMenu;
 import mk.com.iwec.filereader.services.impl.CSVFileReader;
 
 public class Menu {
-	public static String csvPath = "C:\\Users\\hristijan\\Desktop\\work\\iw\\files\\CSVFileReader\\fileReader.csv";
-	public static String fileToDelete = "C:\\Users\\hristijan\\Desktop\\work\\iw\\files\\fileReader-copy.csv";
+	public static String csvPath = "src\\fileReader.csv";
+	public static String fileToDelete = "src\\fileReader-copy.csv";
 
 	public static void returnTheMenu() {
 		CSVFileReader<?> fileReader = new CSVFileReader<Object>();

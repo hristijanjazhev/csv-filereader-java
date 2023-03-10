@@ -34,7 +34,7 @@ public class CSVFileReader<T> implements IFileReader<Object> {
 	}
 
 	public void copyTheFile(String originalFilePath) {
-		String newCopiedFilePath = "C:\\Users\\hristijan\\Desktop\\work\\iw\\files\\fileReader-copy.csv";
+		String newCopiedFilePath = "src\\fileReader-copy.csv";
 		File copiedFile = new File(newCopiedFilePath);
 		try (FileInputStream inputStream = new FileInputStream(originalFilePath);
 				FileOutputStream outputStream = new FileOutputStream(copiedFile)) {
